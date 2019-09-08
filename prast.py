@@ -24,37 +24,37 @@ import pyimgflip
              #﹦﹦﹦﹦﹦﹦﹦ɢᴜɴᴀᴋᴀɴ ᴅᴇɴɢᴀɴ ʙɪᴊᴀᴋ﹦﹦﹦﹦﹦﹦﹦#
 #======sɪʟᴀʜᴋᴀɴ ᴋᴇᴍʙᴀɴɢɪɴ ʟᴀɢɪ sᴄʀɪᴩᴛ ɴʏᴀ======#
 
-cl = LineClient(authToken="EHaPTU55jElRLLpEViQb.HrTVVQZpUBewRs7TdOlpQW.e8dZpSA7rC+MUF6yIhM7lCywl6LeC7TDT6oOvBhC0pP=")
+cl = LineClient("umairsh7929@gmail.com", "143umair")
 cl.log("Auth Token : " + str(cl.authToken))
 channel1 = LineChannel(cl,cl.server.CHANNEL_ID['LINE_TIMELINE'])
 cl.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-ki = LineClient(authToken='EHz5Rp9HfLpgzF7lmX86.94czKSyUNDRWChHkhEtn1G.AWU47cqeYfAxRvpM4+rhPviGtyoKiwx5wAJDWZqOBdG=')
+ki = LineClient('us5906398@gmail.com","143umair')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EHwVAzs9agdrNlqwEru8./ZbbyNT1nPqAvluetuyp/a./OO1ojWeUxZaYyz1oykrpHIon9OOQvMu6lOqx6E6Ij9=')
+kk = LineClient(authToken='')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EHiwxSJuxWx9jMtNXrIc.pK6XbsCUEsyj0ZmllefF+a.8up/0O2+qxt0aJ1HTIzx/FwqWvfLs5bN67QuDh6SDGP=')
+kc = LineClient(authToken='')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-kb = LineClient(authToken='EH7H60UxLFPIL12cjWhf.2fkEl5Zc3N6SZcbD3PYW+W.33ZmeU2XurXMlBK9Bf3o1Q164QNB8RKx1QiFcQw1WAK=')
+kb = LineClient(authToken='')
 kb.log("Auth Token : " + str(kb.authToken))
 channel4 = LineChannel(kb,kb.server.CHANNEL_ID['LINE_TIMELINE'])
 kb.log("Channel Access Token : " + str(channel4.channelAccessToken))
 
-ke = LineClient(authToken='EHfVDB0q6CAidy6pZpy3.wfILYTGu+dLq3t53gzQxaW.PaGN5rfDW/Hy8s+oxMXI11pYpYMYtQsOCj2YJEWsciS=')
+ke = LineClient(authToken='')
 ke.log("Auth Token : " + str(ke.authToken))
 channel3 = LineChannel(ke,ke.server.CHANNEL_ID['LINE_TIMELINE'])
 ke.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EHpVpFclEqZKx9iVHwD1.ai48RdHXW+FapYSi/5AIOq.HddMvfO+86cubPry49hmJa+sJb4I2lh1LVUo5rahZjL=')
+sw = LineClient(authToken='')
 sw.log("Auth Token : " + str(sw.authToken))
 channel4 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
 sw.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -62,10 +62,10 @@ print("\n﹦﹦﹦﹦﹦﹦﹦﹦ᴩʀᴀsᴛ ʜᴜɴᴛᴇʀ ᴋɪʟʟᴇʀ﹦�
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u8a6049ae83629033334864657a4cb506"]
-owner = ["u8a6049ae83629033334864657a4cb506"]
-admin = ["u8a6049ae83629033334864657a4cb506", "u042b866c381573d1e399d16b51ca2d8c", "u851b6fbeaccfb9b116ad2eed0e82cfab"]
-staff = ["u8a6049ae83629033334864657a4cb506"]
+creator = ["u3e4c348df350746f2dd436d84ba719bb"]
+owner = ["u1548571893953e77bab013abd342f472","u3e4c348df350746f2dd436d84ba719bb"]
+admin = ["u1548571893953e77bab013abd342f472","u3e4c348df350746f2dd436d84ba719bb"]
+staff = [""]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
